@@ -1,0 +1,38 @@
+body{
+    width: 97%;
+    height: 97vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-brancas_79603-1362.jpg?w=2000);
+}
+
+section{
+    margin: 40px 0;
+}
+
+.button-as-link{
+    padding: 10px;
+    height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 30px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right, rgb(24, 0, 90), rgb(9, 12, 204));
+	cursor: pointer
+}
+
+.button-as-link:hover{
+    animation: bounce 1s;
+}
+
+.button-as-link a {
+text-decoration: none;
+color: #fff;
+}

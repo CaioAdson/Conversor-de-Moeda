@@ -1,0 +1,66 @@
+body{
+    width: 97%;
+    height: 97vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-brancas_79603-1362.jpg?w=2000);
+}
+
+.container{
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+p{
+    text-align: center;
+     margin: 20px;
+}
+
+.testeinput{
+    width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 50px;
+}
+
+.button{
+    padding: 10px;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right, rgb(24, 0, 90), rgb(9, 12, 204));
+	cursor: pointer
+    
+}
+
+.inputpai{
+    text-align: center;
+}
+
+.buttonpai{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
